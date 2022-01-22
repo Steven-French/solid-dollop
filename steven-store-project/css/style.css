@@ -1,3 +1,14 @@
+.container {
+	width: 100%;
+	display:  flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+body {
+	width: 1250px;
+}
+
+
 li {
 	display: inline;
 	margin: 0 5 0 5;
@@ -20,16 +31,6 @@ img {
 	background-color: lightblue;
 }
 
-.flex-container {
-	display: flex;
-	height: 500px;
-	width: 100%;
-	align-items: flex-start;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	flex: auto;
-}
 
 .add {
 	background-color: yellow;
@@ -41,4 +42,5 @@ img {
 
 .flex-item {
 	margin: 3 3 3 3;
-}
+
+
